@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+.ekran{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+    height: 100vh;
+    /* width: 200px;
+    
+    gap: 15px;
+    border-radius: 10px; */
+}
+
+.login{
+    margin: 10px auto;
+    
+}
+.ekran button{
+    width: 120px;
+    margin: auto;
+}

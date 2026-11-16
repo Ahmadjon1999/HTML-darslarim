@@ -82,3 +82,101 @@ a {
 }
 
 
+
+
+
+.grid-container{
+    background: lightgray;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    max-width: 800px;
+    margin: 120px auto;
+    height: 300px;
+    border-radius: 5%;
+    padding: 20px;
+
+}
+
+
+.quti{
+    background: tomato;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    /* width: 170px; */
+    flex: 1;
+    
+    
+    padding: 50px 20px;
+    margin: 10px auto;
+    border-radius: 5%;
+}
+
+.tabiat{
+    width: 100px;
+    height: 150px;
+    border-radius: 10%;
+   
+}
+
+
+
+.container-new{
+    display: flex;
+    background: rgb(114, 114, 230);
+    gap: 15px;
+    flex-direction: row;
+    padding: 20px;
+
+}
+
+
+.quti-a{
+    background: aqua;
+    flex: 1;
+    
+}
+
+
+
+
+
+.sahifa {
+     display: flex; 
+     gap: 10px; 
+     background: rgb(59, 165, 246);
+ 
+}
+
+.panel { 
+    background: gold;
+    width: 170px; 
+
+}
+
+.asosiy { 
+    background: lightblue;
+    flex: 1; 
+}
+
+
+.karta{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background: yellow;
+    width: 250px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+
+.karta button{
+    margin-top: auto;
+    width: 100px;
+}
