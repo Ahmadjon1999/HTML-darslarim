@@ -63,7 +63,7 @@ switch (day) {
         break;
     case 2:
         console.log("Dushanba")
-        // break
+        break
     case 3:
         console.log("seshanba")
         break
