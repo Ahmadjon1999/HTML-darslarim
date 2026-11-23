@@ -1,8 +1,51 @@
-let a = Number(prompt("son kiritin"));
+ let a = Number(prompt("son kiritin"));
 
-if(a > 0){
-    console.log(a + 1);
-}
-else{
-    console.log(a - 2);
-}
+ if(a % 2 == 0){
+     console.log("juft son")
+ }else{
+     console.log("toq son")
+ }
+
+ let ball = Number(prompt("balingizni kiritin: "))
+
+
+ if(ball >= 86){
+     console.log("Sizning balingiz 5");
+ }
+ else if(ball >= 71 && ball <= 85){
+     console.log("Sizning balingiz 4");
+
+ }
+ else if (ball >= 56 && ball <= 70){
+     console.log("Sizning balingiz 3");
+
+ }
+ else{
+     console.log("Sizning balingiz 2")
+ }
+
+
+ let number = +prompt("son kiritin")
+
+ if (number >= 1 && number <= 100){
+     console.log("oraliqda")
+ }else{
+     console.log("tashqarida")
+ }
+
+ if(number < 1 || number > 100){
+     console.log("tashqarida");
+    
+ }else{
+     console.log("oraliqda")
+ }
+
+ console.log(5 == "5");
+ console.log(5 === "5");
+
+
+let num = prompt("son kiritin")
+
+let result = num % 2 === 0 ? "juft" : "Toq"
+
+console.log(result)
