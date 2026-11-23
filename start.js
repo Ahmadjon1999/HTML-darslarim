@@ -83,3 +83,13 @@ switch (day) {
         console.log("bunday xafta kuni mavjud emas")
         break;
 }
+
+
+switch (day) {
+    case 6:
+    case 7:
+        console.log("Dam olish kuni");
+        break;
+    default:
+        console.log("Ish kuni");
+}
